@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog<br>部落格
+title: Mihir<br>મિહિર
 pagination:
   data: collections.posts
   size: 10
@@ -17,15 +17,15 @@ pagination:
   </p>
   <em>{{ post.date | date: "%Y-%m-%d" }}</em>
   <p class="mt-4">{{ post.data.post_excerpt }}...</p>
-  
+
   <div class="flex justify-between items-center mt-4">
     <div class="flex-1 pr-4">
       {% for tag in post.data.tags %}
-        {% if tag != "posts" %}
-          <a href="/tags/{{ tag }}" class="">
-            <div class="post-tag">{{ tag }}</div>
-          </a>
-        {% endif %}
+      {% if tag != "posts" %}
+      <a href="/tags/{{ tag }}" class="">
+        <div class="post-tag">{{ tag }}</div>
+      </a>
+      {% endif %}
       {% endfor %}
     </div>
 

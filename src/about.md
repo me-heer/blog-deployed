@@ -1,6 +1,6 @@
 ---
 layout: default
-title: This is me.
+title: Mihir Joshi
 ---
 
-She/her. A software person. Singapore.
+He/his. I like programming. I make [YouTube videos](https://www.youtube.com/mformotivation), too.
